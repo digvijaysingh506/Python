@@ -1,7 +1,8 @@
-#Print sum of number from 1 to 50
+#Using the Math Module for Calculations
 
-result =0
-for i in range(1,51):
-    result+=i
+from math import sqrt,log,sin
 
-print("The sum of number from 1 to 50 is: ",result)
+number = int(input("Enter a number: "))
+print("Square root: ",sqrt(number))
+print("Logarithm: ", log(number))
+print("Sine: ",sin(number))

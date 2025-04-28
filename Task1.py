@@ -1,8 +1,11 @@
-#Check and print number is odd or even
+#Calculate Factorial Using a Function
 
-userInput = input("Enter a number: ")
+number = int(input("Enter a number: "))
 
-if(int(userInput)>0 and int(userInput)%2==0):
-    print(userInput," is an even number")
-else:
-    print(userInput," is an odd number")
+def factorial(number):
+    if(number<2):
+        return 1
+    else:
+        return number*(factorial(number-1))
+
+print("factorial of ", number," is : ",factorial(number))
