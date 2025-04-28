@@ -1,5 +1,7 @@
-#Create a Personalized Greeting
-fName = input("Enter your first name:")
-lName = input("Enter your last name:")
+#Print sum of number from 1 to 50
 
-print("Hello, ",fName ," ",lName,"! Welcome to the python program.")
+result =0
+for i in range(1,51):
+    result+=i
+
+print("The sum of number from 1 to 50 is: ",result)
